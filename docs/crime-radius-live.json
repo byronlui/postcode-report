@@ -1,0 +1,4109 @@
+{
+  "1": {
+    "status": "ok",
+    "summary": "2026-07 · 1.00 miles 半徑 · 按警方匿名位置計算",
+    "rows": [
+      {
+        "category": "Violent Crime",
+        "count": 20
+      },
+      {
+        "category": "Anti Social Behaviour",
+        "count": 12
+      },
+      {
+        "category": "Public Order",
+        "count": 5
+      },
+      {
+        "category": "Burglary",
+        "count": 4
+      },
+      {
+        "category": "Shoplifting",
+        "count": 4
+      },
+      {
+        "category": "Criminal Damage Arson",
+        "count": 3
+      },
+      {
+        "category": "Other Theft",
+        "count": 3
+      },
+      {
+        "category": "Vehicle Crime",
+        "count": 2
+      },
+      {
+        "category": "Possession Of Weapons",
+        "count": 1
+      },
+      {
+        "category": "Other Crime",
+        "count": 1
+      }
+    ],
+    "metrics": [
+      {
+        "label": "已公開事件（含 ASB）",
+        "value": 55,
+        "unit": ""
+      },
+      {
+        "label": "罪案（不含 ASB）",
+        "value": 43,
+        "unit": ""
+      },
+      {
+        "label": "反社會行為 ASB",
+        "value": 12,
+        "unit": ""
+      },
+      {
+        "label": "資料月份",
+        "value": "2026-07",
+        "unit": ""
+      }
+    ],
+    "notes": [
+      "地圖只顯示警方匿名化的大約位置，不是實際案發地址；同一點可代表多宗事件。",
+      "這是單一月份已公開紀錄，並非即時案件或犯罪率；未報案、延遲及警隊缺報均影響數字。",
+      "缺少可用座標而未納入範圍統計：0 宗。"
+    ],
+    "links": [
+      {
+        "label": "警方位置匿名化及資料限制",
+        "url": "https://data.police.uk/about/"
+      }
+    ],
+    "sources": [
+      {
+        "id": "police",
+        "name": "Police.uk",
+        "url": "https://data.police.uk/docs/",
+        "coverage": "England, Wales, Northern Ireland; Scotland BTP only",
+        "key_requirement": "No key",
+        "license": "Open Government Licence v3.0 (check dataset-specific exceptions)",
+        "fallback": "Police.uk monthly CSV downloads"
+      }
+    ],
+    "shape": {
+      "mode": "circle",
+      "radius_km": 1.609344,
+      "radius_miles": 1.0,
+      "center": [
+        51.474451,
+        -0.880651
+      ]
+    },
+    "month": "2026-07",
+    "radius_km": 1.609344,
+    "incidents": [
+      {
+        "id": 136778720,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.460953,
+        "lon": -0.878812,
+        "location": "On or near Fir Tree Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778805,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779006,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.475367,
+        "lon": -0.882591,
+        "location": "On or near Pennine Way",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779075,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.478175,
+        "lon": -0.8725,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778729,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778728,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778727,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778873,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778989,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.474532,
+        "lon": -0.882669,
+        "location": "On or near East Park Farm Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779044,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778984,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779230,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.483998,
+        "lon": -0.865602,
+        "location": "On or near Longfield Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778963,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.471578,
+        "lon": -0.862541,
+        "location": "On or near Wellington Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779048,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.477242,
+        "lon": -0.869975,
+        "location": "On or near Weavers Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779165,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.480576,
+        "lon": -0.862303,
+        "location": "On or near Sycamore Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779071,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779076,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.478175,
+        "lon": -0.8725,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778791,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779102,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778985,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779054,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.47781,
+        "lon": -0.867325,
+        "location": "On or near Bell Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778859,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.466258,
+        "lon": -0.887305,
+        "location": "On or near Waingels Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779083,
+        "category": "Possession Of Weapons",
+        "category_id": "possession-of-weapons",
+        "lat": 51.479127,
+        "lon": -0.867754,
+        "location": "On or near Thornbury Green",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779103,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778995,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136779003,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.476093,
+        "lon": -0.886145,
+        "location": "On or near Pipistrelle Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779059,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779154,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.480698,
+        "lon": -0.867456,
+        "location": "On or near Greenfinch Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779058,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779069,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779070,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779068,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779077,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778954,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.472192,
+        "lon": -0.884325,
+        "location": "On or near Park Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778792,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779063,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779101,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778788,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778787,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778786,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779086,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.479127,
+        "lon": -0.867754,
+        "location": "On or near Thornbury Green",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779107,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778666,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460953,
+        "lon": -0.878812,
+        "location": "On or near Fir Tree Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778959,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47114,
+        "lon": -0.861948,
+        "location": "On or near Hurst Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778648,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460451,
+        "lon": -0.878968,
+        "location": "On or near Hawthorn Crescent",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136778657,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460451,
+        "lon": -0.878968,
+        "location": "On or near Hawthorn Crescent",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136778789,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778913,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.469212,
+        "lon": -0.901141,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778785,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778790,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778784,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779021,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779020,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778994,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475526,
+        "lon": -0.858311,
+        "location": "On or near Sports/recreation Area",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778793,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      }
+    ],
+    "fetched_at": "2026-09-20T07:51:44.972897+00:00",
+    "cache": "live"
+  },
+  "1.5": {
+    "status": "ok",
+    "summary": "2026-07 · 1.50 miles 半徑 · 按警方匿名位置計算",
+    "rows": [
+      {
+        "category": "Violent Crime",
+        "count": 45
+      },
+      {
+        "category": "Anti Social Behaviour",
+        "count": 24
+      },
+      {
+        "category": "Other Theft",
+        "count": 10
+      },
+      {
+        "category": "Public Order",
+        "count": 7
+      },
+      {
+        "category": "Burglary",
+        "count": 6
+      },
+      {
+        "category": "Shoplifting",
+        "count": 6
+      },
+      {
+        "category": "Criminal Damage Arson",
+        "count": 5
+      },
+      {
+        "category": "Vehicle Crime",
+        "count": 3
+      },
+      {
+        "category": "Other Crime",
+        "count": 3
+      },
+      {
+        "category": "Drugs",
+        "count": 1
+      },
+      {
+        "category": "Possession Of Weapons",
+        "count": 1
+      }
+    ],
+    "metrics": [
+      {
+        "label": "已公開事件（含 ASB）",
+        "value": 111,
+        "unit": ""
+      },
+      {
+        "label": "罪案（不含 ASB）",
+        "value": 87,
+        "unit": ""
+      },
+      {
+        "label": "反社會行為 ASB",
+        "value": 24,
+        "unit": ""
+      },
+      {
+        "label": "資料月份",
+        "value": "2026-07",
+        "unit": ""
+      }
+    ],
+    "notes": [
+      "地圖只顯示警方匿名化的大約位置，不是實際案發地址；同一點可代表多宗事件。",
+      "這是單一月份已公開紀錄，並非即時案件或犯罪率；未報案、延遲及警隊缺報均影響數字。",
+      "缺少可用座標而未納入範圍統計：0 宗。"
+    ],
+    "links": [
+      {
+        "label": "警方位置匿名化及資料限制",
+        "url": "https://data.police.uk/about/"
+      }
+    ],
+    "sources": [
+      {
+        "id": "police",
+        "name": "Police.uk",
+        "url": "https://data.police.uk/docs/",
+        "coverage": "England, Wales, Northern Ireland; Scotland BTP only",
+        "key_requirement": "No key",
+        "license": "Open Government Licence v3.0 (check dataset-specific exceptions)",
+        "fallback": "Police.uk monthly CSV downloads"
+      }
+    ],
+    "shape": {
+      "mode": "circle",
+      "radius_km": 2.414016,
+      "radius_miles": 1.5,
+      "center": [
+        51.474451,
+        -0.880651
+      ]
+    },
+    "month": "2026-07",
+    "radius_km": 2.414016,
+    "incidents": [
+      {
+        "id": 136778940,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.470426,
+        "lon": -0.904999,
+        "location": "On or near Little Glebe",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778989,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.474532,
+        "lon": -0.882669,
+        "location": "On or near East Park Farm Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779075,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.478175,
+        "lon": -0.8725,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778984,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777908,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.454027,
+        "lon": -0.884221,
+        "location": "On or near Rose Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779044,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779006,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.475367,
+        "lon": -0.882591,
+        "location": "On or near Pennine Way",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778924,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.469035,
+        "lon": -0.906256,
+        "location": "On or near Parkway Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778805,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778729,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778728,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778727,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778720,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.460953,
+        "lon": -0.878812,
+        "location": "On or near Fir Tree Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777907,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.454027,
+        "lon": -0.884221,
+        "location": "On or near Rose Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778635,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459407,
+        "lon": -0.877008,
+        "location": "On or near Elm Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778621,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.458252,
+        "lon": -0.885053,
+        "location": "On or near Mannock Way",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778481,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778480,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778637,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459516,
+        "lon": -0.891284,
+        "location": "On or near Brandon Avenue",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778660,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.460538,
+        "lon": -0.906243,
+        "location": "On or near The Laurels",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779112,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.480179,
+        "lon": -0.858396,
+        "location": "On or near Millgate Court",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778053,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.455617,
+        "lon": -0.896444,
+        "location": "On or near Woodley Green",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779230,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.483998,
+        "lon": -0.865602,
+        "location": "On or near Longfield Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778873,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779048,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.477242,
+        "lon": -0.869975,
+        "location": "On or near Weavers Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778682,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.461559,
+        "lon": -0.906809,
+        "location": "On or near Ryecroft Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778963,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.471578,
+        "lon": -0.862541,
+        "location": "On or near Wellington Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779071,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779165,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.480576,
+        "lon": -0.862303,
+        "location": "On or near Sycamore Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778929,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.468916,
+        "lon": -0.8542,
+        "location": "On or near Poundfield Way",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778608,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.459184,
+        "lon": -0.894243,
+        "location": "On or near The Parade",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779102,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778791,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779076,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.478175,
+        "lon": -0.8725,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778478,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.457296,
+        "lon": -0.87716,
+        "location": "On or near Buttercup Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778312,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.455683,
+        "lon": -0.876811,
+        "location": "On or near Gardenia",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778477,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.457296,
+        "lon": -0.87716,
+        "location": "On or near Buttercup Lane",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778485,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778859,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.466258,
+        "lon": -0.887305,
+        "location": "On or near Waingels Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779527,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.488275,
+        "lon": -0.867081,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779435,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.487221,
+        "lon": -0.868734,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778339,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.455993,
+        "lon": -0.881078,
+        "location": "On or near Sunderland Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779321,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.484393,
+        "lon": -0.861848,
+        "location": "On or near Crest Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779437,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.487221,
+        "lon": -0.868734,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779054,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.47781,
+        "lon": -0.867325,
+        "location": "On or near Bell Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778985,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779083,
+        "category": "Possession Of Weapons",
+        "category_id": "possession-of-weapons",
+        "lat": 51.479127,
+        "lon": -0.867754,
+        "location": "On or near Thornbury Green",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778387,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.457218,
+        "lon": -0.89262,
+        "location": "On or near Pitford Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779059,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779103,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779154,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.480698,
+        "lon": -0.867456,
+        "location": "On or near Greenfinch Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778995,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136777812,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.453621,
+        "lon": -0.888778,
+        "location": "On or near Shackleton Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779003,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.476093,
+        "lon": -0.886145,
+        "location": "On or near Pipistrelle Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779068,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779058,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779070,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779069,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779436,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.487221,
+        "lon": -0.868734,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778100,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.454603,
+        "lon": -0.888021,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778954,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.472192,
+        "lon": -0.884325,
+        "location": "On or near Park Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778395,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.456859,
+        "lon": -0.894659,
+        "location": "On or near Church Mews",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779077,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779107,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778972,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475597,
+        "lon": -0.913717,
+        "location": "On or near B478",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779114,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.480179,
+        "lon": -0.858396,
+        "location": "On or near Millgate Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778648,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460451,
+        "lon": -0.878968,
+        "location": "On or near Hawthorn Crescent",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136779577,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.492502,
+        "lon": -0.881251,
+        "location": "On or near Loddon Drive",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778449,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457016,
+        "lon": -0.89703,
+        "location": "On or near Selsdon Avenue",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778639,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.459942,
+        "lon": -0.876491,
+        "location": "On or near Oak Grove",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778657,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460451,
+        "lon": -0.878968,
+        "location": "On or near Hawthorn Crescent",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136778913,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.469212,
+        "lon": -0.901141,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136779021,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777827,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453309,
+        "lon": -0.879618,
+        "location": "On or near Monitor Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778785,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778407,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456963,
+        "lon": -0.885617,
+        "location": "On or near Donaldson Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778408,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456963,
+        "lon": -0.885617,
+        "location": "On or near Donaldson Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778442,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456963,
+        "lon": -0.885617,
+        "location": "On or near Donaldson Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778482,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778483,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778484,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778486,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778487,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778488,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778530,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.458726,
+        "lon": -0.894254,
+        "location": "On or near Brecon Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778534,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.458252,
+        "lon": -0.885053,
+        "location": "On or near Mannock Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778598,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.459067,
+        "lon": -0.896145,
+        "location": "On or near Glendevon Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778599,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.459067,
+        "lon": -0.896145,
+        "location": "On or near Glendevon Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777967,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.45474,
+        "lon": -0.877021,
+        "location": "On or near Fox Glove",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778666,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460953,
+        "lon": -0.878812,
+        "location": "On or near Fir Tree Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778946,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475597,
+        "lon": -0.913717,
+        "location": "On or near B478",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778945,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475597,
+        "lon": -0.913717,
+        "location": "On or near B478",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778934,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.469331,
+        "lon": -0.905184,
+        "location": "On or near Paddick Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778786,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778787,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778788,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778792,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778905,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.467505,
+        "lon": -0.857042,
+        "location": "On or near Burton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778790,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779020,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778959,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47114,
+        "lon": -0.861948,
+        "location": "On or near Hurst Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778784,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779063,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778953,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.470707,
+        "lon": -0.85715,
+        "location": "On or near Kingfisher Court",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136779086,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.479127,
+        "lon": -0.867754,
+        "location": "On or near Thornbury Green",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779101,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778994,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475526,
+        "lon": -0.858311,
+        "location": "On or near Sports/recreation Area",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778789,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779047,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.478959,
+        "lon": -0.85042,
+        "location": "On or near Southbury Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778793,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778476,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.457296,
+        "lon": -0.87716,
+        "location": "On or near Buttercup Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      }
+    ],
+    "fetched_at": "2026-09-20T07:51:45.270221+00:00",
+    "cache": "live"
+  },
+  "2.2": {
+    "status": "ok",
+    "summary": "2026-07 · 2.20 miles 半徑 · 按警方匿名位置計算",
+    "rows": [
+      {
+        "category": "Violent Crime",
+        "count": 72
+      },
+      {
+        "category": "Anti Social Behaviour",
+        "count": 41
+      },
+      {
+        "category": "Shoplifting",
+        "count": 24
+      },
+      {
+        "category": "Other Theft",
+        "count": 17
+      },
+      {
+        "category": "Public Order",
+        "count": 16
+      },
+      {
+        "category": "Criminal Damage Arson",
+        "count": 11
+      },
+      {
+        "category": "Burglary",
+        "count": 8
+      },
+      {
+        "category": "Vehicle Crime",
+        "count": 7
+      },
+      {
+        "category": "Drugs",
+        "count": 6
+      },
+      {
+        "category": "Other Crime",
+        "count": 6
+      },
+      {
+        "category": "Bicycle Theft",
+        "count": 3
+      },
+      {
+        "category": "Possession Of Weapons",
+        "count": 1
+      }
+    ],
+    "metrics": [
+      {
+        "label": "已公開事件（含 ASB）",
+        "value": 212,
+        "unit": ""
+      },
+      {
+        "label": "罪案（不含 ASB）",
+        "value": 171,
+        "unit": ""
+      },
+      {
+        "label": "反社會行為 ASB",
+        "value": 41,
+        "unit": ""
+      },
+      {
+        "label": "資料月份",
+        "value": "2026-07",
+        "unit": ""
+      }
+    ],
+    "notes": [
+      "地圖只顯示警方匿名化的大約位置，不是實際案發地址；同一點可代表多宗事件。",
+      "這是單一月份已公開紀錄，並非即時案件或犯罪率；未報案、延遲及警隊缺報均影響數字。",
+      "缺少可用座標而未納入範圍統計：0 宗。"
+    ],
+    "links": [
+      {
+        "label": "警方位置匿名化及資料限制",
+        "url": "https://data.police.uk/about/"
+      }
+    ],
+    "sources": [
+      {
+        "id": "police",
+        "name": "Police.uk",
+        "url": "https://data.police.uk/docs/",
+        "coverage": "England, Wales, Northern Ireland; Scotland BTP only",
+        "key_requirement": "No key",
+        "license": "Open Government Licence v3.0 (check dataset-specific exceptions)",
+        "fallback": "Police.uk monthly CSV downloads"
+      }
+    ],
+    "shape": {
+      "mode": "circle",
+      "radius_km": 3.5405568000000005,
+      "radius_miles": 2.2,
+      "center": [
+        51.474451,
+        -0.880651
+      ]
+    },
+    "month": "2026-07",
+    "radius_km": 3.5405568000000005,
+    "incidents": [
+      {
+        "id": 136777792,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.452744,
+        "lon": -0.902587,
+        "location": "On or near Ambleside Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778491,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777244,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.446352,
+        "lon": -0.902783,
+        "location": "On or near Martin Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778637,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459516,
+        "lon": -0.891284,
+        "location": "On or near Brandon Avenue",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778660,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.460538,
+        "lon": -0.906243,
+        "location": "On or near The Laurels",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777840,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.454564,
+        "lon": -0.915641,
+        "location": "On or near Chequers Way",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778873,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778940,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.470426,
+        "lon": -0.904999,
+        "location": "On or near Little Glebe",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778989,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.474532,
+        "lon": -0.882669,
+        "location": "On or near East Park Farm Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777818,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779230,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.483998,
+        "lon": -0.865602,
+        "location": "On or near Longfield Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777797,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.453618,
+        "lon": -0.913475,
+        "location": "On or near Beaufield Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778727,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778729,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778720,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.460953,
+        "lon": -0.878812,
+        "location": "On or near Fir Tree Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777992,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777438,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.448981,
+        "lon": -0.909873,
+        "location": "On or near Antrim Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778635,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459407,
+        "lon": -0.877008,
+        "location": "On or near Elm Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778621,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.458252,
+        "lon": -0.885053,
+        "location": "On or near Mannock Way",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778728,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778924,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.469035,
+        "lon": -0.906256,
+        "location": "On or near Parkway Drive",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777885,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.453415,
+        "lon": -0.861769,
+        "location": "On or near Lodge Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777356,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.447151,
+        "lon": -0.906506,
+        "location": "On or near Dundela Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778805,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.46509,
+        "lon": -0.881691,
+        "location": "On or near Beggars Hill Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779006,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.475367,
+        "lon": -0.882591,
+        "location": "On or near Pennine Way",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779044,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777259,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.445872,
+        "lon": -0.879599,
+        "location": "On or near Park/open Space",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778481,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778480,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777743,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.452707,
+        "lon": -0.906402,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778474,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459058,
+        "lon": -0.924142,
+        "location": "On or near Shepherds Avenue",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777842,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.453384,
+        "lon": -0.90663,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778473,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459058,
+        "lon": -0.924142,
+        "location": "On or near Shepherds Avenue",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777907,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.454027,
+        "lon": -0.884221,
+        "location": "On or near Rose Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778472,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.459058,
+        "lon": -0.924142,
+        "location": "On or near Shepherds Avenue",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779075,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.478175,
+        "lon": -0.8725,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777908,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.454027,
+        "lon": -0.884221,
+        "location": "On or near Rose Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779112,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.480179,
+        "lon": -0.858396,
+        "location": "On or near Millgate Court",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778053,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.455617,
+        "lon": -0.896444,
+        "location": "On or near Woodley Green",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136778984,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136777871,
+        "category": "Anti Social Behaviour",
+        "category_id": "anti-social-behaviour",
+        "lat": 51.45398,
+        "lon": -0.902068,
+        "location": "On or near Headley Road",
+        "month": "2026-07",
+        "outcome": "未提供結果"
+      },
+      {
+        "id": 136779672,
+        "category": "Bicycle Theft",
+        "category_id": "bicycle-theft",
+        "lat": 51.500746,
+        "lon": -0.870762,
+        "location": "On or near Church Street",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779671,
+        "category": "Bicycle Theft",
+        "category_id": "bicycle-theft",
+        "lat": 51.500746,
+        "lon": -0.870762,
+        "location": "On or near Church Street",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777668,
+        "category": "Bicycle Theft",
+        "category_id": "bicycle-theft",
+        "lat": 51.453028,
+        "lon": -0.914828,
+        "location": "On or near Rushbrook Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779048,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.477242,
+        "lon": -0.869975,
+        "location": "On or near Weavers Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778610,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.459582,
+        "lon": -0.906885,
+        "location": "On or near Radcot Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778963,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.471578,
+        "lon": -0.862541,
+        "location": "On or near Wellington Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778682,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.461559,
+        "lon": -0.906809,
+        "location": "On or near Ryecroft Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779165,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.480576,
+        "lon": -0.862303,
+        "location": "On or near Sycamore Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778929,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.468916,
+        "lon": -0.8542,
+        "location": "On or near Poundfield Way",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779071,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777287,
+        "category": "Burglary",
+        "category_id": "burglary",
+        "lat": 51.446381,
+        "lon": -0.894365,
+        "location": "On or near Hudson Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777223,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.445631,
+        "lon": -0.890195,
+        "location": "On or near Kingsford Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778608,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.459184,
+        "lon": -0.894243,
+        "location": "On or near The Parade",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779076,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.478175,
+        "lon": -0.8725,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778478,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.457296,
+        "lon": -0.87716,
+        "location": "On or near Buttercup Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778306,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.455825,
+        "lon": -0.911005,
+        "location": "On or near Wheble Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777759,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.453213,
+        "lon": -0.903698,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777260,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.445872,
+        "lon": -0.879599,
+        "location": "On or near Park/open Space",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777586,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.451282,
+        "lon": -0.889612,
+        "location": "On or near Wright Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777529,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.451001,
+        "lon": -0.898988,
+        "location": "On or near Temple Mews",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779102,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778791,
+        "category": "Criminal Damage Arson",
+        "category_id": "criminal-damage-arson",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777793,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.452744,
+        "lon": -0.902587,
+        "location": "On or near Ambleside Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777396,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.448206,
+        "lon": -0.903962,
+        "location": "On or near Crockhamwell Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778312,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.455683,
+        "lon": -0.876811,
+        "location": "On or near Gardenia",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777266,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.446352,
+        "lon": -0.902783,
+        "location": "On or near Martin Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779723,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.501886,
+        "lon": -0.858545,
+        "location": "On or near Recreation Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777901,
+        "category": "Drugs",
+        "category_id": "drugs",
+        "lat": 51.453415,
+        "lon": -0.861769,
+        "location": "On or near Lodge Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778859,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.466258,
+        "lon": -0.887305,
+        "location": "On or near Waingels Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779676,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.501478,
+        "lon": -0.864679,
+        "location": "On or near Rosemead",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779620,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.498726,
+        "lon": -0.867383,
+        "location": "On or near Braybrooke Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779437,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.487221,
+        "lon": -0.868734,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777275,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.449658,
+        "lon": -0.858236,
+        "location": "On or near Church Hill",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778477,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.457296,
+        "lon": -0.87716,
+        "location": "On or near Buttercup Lane",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778547,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779321,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.484393,
+        "lon": -0.861848,
+        "location": "On or near Crest Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778485,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778985,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778339,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.455993,
+        "lon": -0.881078,
+        "location": "On or near Sunderland Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779060,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.482386,
+        "lon": -0.924543,
+        "location": "On or near Spring Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779054,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.47781,
+        "lon": -0.867325,
+        "location": "On or near Bell Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779037,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.477132,
+        "lon": -0.917381,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779435,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.487221,
+        "lon": -0.868734,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779527,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.488275,
+        "lon": -0.867081,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779772,
+        "category": "Other Theft",
+        "category_id": "other-theft",
+        "lat": 51.503821,
+        "lon": -0.862344,
+        "location": "On or near Ridge Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779083,
+        "category": "Possession Of Weapons",
+        "category_id": "possession-of-weapons",
+        "lat": 51.479127,
+        "lon": -0.867754,
+        "location": "On or near Thornbury Green",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777627,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.451959,
+        "lon": -0.913975,
+        "location": "On or near Woodlands Avenue",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779059,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778995,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.474313,
+        "lon": -0.889932,
+        "location": "On or near Lime Tree Close",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136777798,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.453618,
+        "lon": -0.913475,
+        "location": "On or near Beaufield Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777812,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.453621,
+        "lon": -0.888778,
+        "location": "On or near Shackleton Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779003,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.476093,
+        "lon": -0.886145,
+        "location": "On or near Pipistrelle Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777652,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.451809,
+        "lon": -0.905496,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777984,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.454749,
+        "lon": -0.852798,
+        "location": "On or near Orchard Chase",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777996,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778427,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.457595,
+        "lon": -0.911769,
+        "location": "On or near Reading Road",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777978,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.453944,
+        "lon": -0.910747,
+        "location": "On or near Beechwood Avenue",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779103,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777819,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778387,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.457218,
+        "lon": -0.89262,
+        "location": "On or near Pitford Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778513,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779154,
+        "category": "Public Order",
+        "category_id": "public-order",
+        "lat": 51.480698,
+        "lon": -0.867456,
+        "location": "On or near Greenfinch Drive",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778542,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778528,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.459998,
+        "lon": -0.919859,
+        "location": "On or near A4",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778529,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.459998,
+        "lon": -0.919859,
+        "location": "On or near A4",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778540,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778543,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779069,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777620,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.451809,
+        "lon": -0.905496,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777775,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778535,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778539,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778545,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779058,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779070,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778544,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777619,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.451809,
+        "lon": -0.905496,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777889,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778100,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.454603,
+        "lon": -0.888021,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778536,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Awaiting court outcome"
+      },
+      {
+        "id": 136778537,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778538,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Awaiting court outcome"
+      },
+      {
+        "id": 136778541,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Awaiting court outcome"
+      },
+      {
+        "id": 136778546,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779068,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.478254,
+        "lon": -0.865817,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779436,
+        "category": "Shoplifting",
+        "category_id": "shoplifting",
+        "lat": 51.487221,
+        "lon": -0.868734,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778395,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.456859,
+        "lon": -0.894659,
+        "location": "On or near Church Mews",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778280,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.455378,
+        "lon": -0.90641,
+        "location": "On or near Farriers Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778954,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.472192,
+        "lon": -0.884325,
+        "location": "On or near Park Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777418,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.449006,
+        "lon": -0.905814,
+        "location": "On or near Penrose Avenue",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779077,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777651,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.45206,
+        "lon": -0.888255,
+        "location": "On or near Armstrong Way",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777618,
+        "category": "Vehicle Crime",
+        "category_id": "vehicle-crime",
+        "lat": 51.451809,
+        "lon": -0.905496,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778482,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779101,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.479579,
+        "lon": -0.888623,
+        "location": "On or near Kingsley Close",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778470,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457482,
+        "lon": -0.853723,
+        "location": "On or near Barker Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778442,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456963,
+        "lon": -0.885617,
+        "location": "On or near Donaldson Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779063,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778946,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475597,
+        "lon": -0.913717,
+        "location": "On or near B478",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778408,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456963,
+        "lon": -0.885617,
+        "location": "On or near Donaldson Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778407,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456963,
+        "lon": -0.885617,
+        "location": "On or near Donaldson Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778303,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.456949,
+        "lon": -0.902299,
+        "location": "On or near Haddon Drive",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779086,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.479127,
+        "lon": -0.867754,
+        "location": "On or near Thornbury Green",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779107,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.478837,
+        "lon": -0.861022,
+        "location": "On or near Orchard Estate",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778085,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.454997,
+        "lon": -0.914752,
+        "location": "On or near Howth Drive",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778067,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.455378,
+        "lon": -0.90641,
+        "location": "On or near Farriers Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779114,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.480179,
+        "lon": -0.858396,
+        "location": "On or near Millgate Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777993,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136777834,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453384,
+        "lon": -0.90663,
+        "location": "On or near Parking Area",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136793235,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.448206,
+        "lon": -0.903962,
+        "location": "On or near Crockhamwell Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779566,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.495882,
+        "lon": -0.844938,
+        "location": "On or near Tag Lane",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136777814,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453403,
+        "lon": -0.904816,
+        "location": "On or near Supermarket",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778648,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460451,
+        "lon": -0.878968,
+        "location": "On or near Hawthorn Crescent",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136778945,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475597,
+        "lon": -0.913717,
+        "location": "On or near B478",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777827,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453309,
+        "lon": -0.879618,
+        "location": "On or near Monitor Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777799,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453618,
+        "lon": -0.913475,
+        "location": "On or near Beaufield Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779577,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.492502,
+        "lon": -0.881251,
+        "location": "On or near Loddon Drive",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779617,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.498436,
+        "lon": -0.897341,
+        "location": "On or near Church Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777580,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.451122,
+        "lon": -0.914873,
+        "location": "On or near Carrick Gardens",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777504,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.450308,
+        "lon": -0.912345,
+        "location": "On or near Fawcett Crescent",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777242,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.445631,
+        "lon": -0.890195,
+        "location": "On or near Kingsford Close",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136777406,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.448123,
+        "lon": -0.887415,
+        "location": "On or near Cypress Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777290,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.446352,
+        "lon": -0.902783,
+        "location": "On or near Martin Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777608,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.451491,
+        "lon": -0.896515,
+        "location": "On or near Millers Grove",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136778972,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475597,
+        "lon": -0.913717,
+        "location": "On or near B478",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778657,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460451,
+        "lon": -0.878968,
+        "location": "On or near Hawthorn Crescent",
+        "month": "2026-07",
+        "outcome": "Action to be taken by another organisation"
+      },
+      {
+        "id": 136778905,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.467505,
+        "lon": -0.857042,
+        "location": "On or near Burton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778486,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778484,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779020,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779021,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47703,
+        "lon": -0.868425,
+        "location": "On or near Polehampton Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778483,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778530,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.458726,
+        "lon": -0.894254,
+        "location": "On or near Brecon Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778786,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778787,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778788,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778488,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778792,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777667,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.453028,
+        "lon": -0.914828,
+        "location": "On or near Rushbrook Road",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136777261,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.445872,
+        "lon": -0.879599,
+        "location": "On or near Park/open Space",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778934,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.469331,
+        "lon": -0.905184,
+        "location": "On or near Paddick Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779567,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.495882,
+        "lon": -0.844938,
+        "location": "On or near Tag Lane",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778224,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.455378,
+        "lon": -0.90641,
+        "location": "On or near Farriers Close",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778959,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.47114,
+        "lon": -0.861948,
+        "location": "On or near Hurst Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778449,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457016,
+        "lon": -0.89703,
+        "location": "On or near Selsdon Avenue",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136779568,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.495882,
+        "lon": -0.844938,
+        "location": "On or near Tag Lane",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778790,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778784,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777295,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.446352,
+        "lon": -0.902783,
+        "location": "On or near Martin Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779701,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.501103,
+        "lon": -0.868621,
+        "location": "On or near Backsideans",
+        "month": "2026-07",
+        "outcome": "Investigation complete; no suspect identified"
+      },
+      {
+        "id": 136778857,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.461765,
+        "lon": -0.846606,
+        "location": "On or near Hinton Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778639,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.459942,
+        "lon": -0.876491,
+        "location": "On or near Oak Grove",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778487,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457343,
+        "lon": -0.876468,
+        "location": "On or near Jasmine Square",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778789,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778913,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.469212,
+        "lon": -0.901141,
+        "location": "On or near Old Bath Road",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778785,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778468,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.457482,
+        "lon": -0.853723,
+        "location": "On or near Barker Court",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777967,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.45474,
+        "lon": -0.877021,
+        "location": "On or near Fox Glove",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778953,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.470707,
+        "lon": -0.85715,
+        "location": "On or near Kingfisher Court",
+        "month": "2026-07",
+        "outcome": "Unable to prosecute suspect"
+      },
+      {
+        "id": 136778599,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.459067,
+        "lon": -0.896145,
+        "location": "On or near Glendevon Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778598,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.459067,
+        "lon": -0.896145,
+        "location": "On or near Glendevon Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778666,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.460953,
+        "lon": -0.878812,
+        "location": "On or near Fir Tree Road",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778548,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.458971,
+        "lon": -0.921345,
+        "location": "On or near Petrol Station",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778994,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.475526,
+        "lon": -0.858311,
+        "location": "On or near Sports/recreation Area",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778534,
+        "category": "Violent Crime",
+        "category_id": "violent-crime",
+        "lat": 51.458252,
+        "lon": -0.885053,
+        "location": "On or near Mannock Way",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777583,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.451122,
+        "lon": -0.914873,
+        "location": "On or near Carrick Gardens",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778793,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.463464,
+        "lon": -0.891361,
+        "location": "On or near Shipley Close",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136778476,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.457296,
+        "lon": -0.87716,
+        "location": "On or near Buttercup Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136777597,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.451491,
+        "lon": -0.896515,
+        "location": "On or near Millers Grove",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779047,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.478959,
+        "lon": -0.85042,
+        "location": "On or near Southbury Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      },
+      {
+        "id": 136779119,
+        "category": "Other Crime",
+        "category_id": "other-crime",
+        "lat": 51.482386,
+        "lon": -0.924543,
+        "location": "On or near Spring Lane",
+        "month": "2026-07",
+        "outcome": "Under investigation"
+      }
+    ],
+    "fetched_at": "2026-09-20T07:51:45.599590+00:00",
+    "cache": "live"
+  }
+}

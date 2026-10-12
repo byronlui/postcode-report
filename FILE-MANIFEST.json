@@ -1,0 +1,521 @@
+{
+  "version": "2026-10-11",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 776,
+      "sha256": "de88890049abdd27a94bea4bbf07040def4250bd463315c718efb4a15bb050d4"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 78,
+      "sha256": "3d20292acfac31caa776ec5f1ef8327bb2158f697cc3b7d15daf1eca1e0e09f8"
+    },
+    {
+      "path": "Install-and-Start.command",
+      "bytes": 180,
+      "sha256": "06dcdfd682868e9dad3884336c7902a305ff286c984ffa683addde4ae1817921"
+    },
+    {
+      "path": "QUICK-START-\u7e41\u9ad4\u4e2d\u6587.md",
+      "bytes": 4037,
+      "sha256": "c5e761a1970891672c30849ca80d58b34590cfd467f6a8b9f88cd51068e0d2a7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15436,
+      "sha256": "12649d31b42737f44b7ff0f5601290c095a1ea34d0977e62f31caba2272b984a"
+    },
+    {
+      "path": "Start.command",
+      "bytes": 179,
+      "sha256": "5679a1b83c8d250550b03b05d34eb5e319dedf4a8797d62daa79ce2b77a7b40c"
+    },
+    {
+      "path": "app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/catalog.py",
+      "bytes": 6982,
+      "sha256": "2eae4c06f552a1d90b971089fe12be3cc268f61b5e8799e2d2f1f52c8fdcc6ac"
+    },
+    {
+      "path": "app/core.py",
+      "bytes": 6945,
+      "sha256": "a77f589989a645f85c1a80b7a86ac4e47213efd7a47810f05096d224e199636f"
+    },
+    {
+      "path": "app/crimegeo.py",
+      "bytes": 2089,
+      "sha256": "13731f5a281082d31df64dda29516a10886df33bd377775ce31fde324fe00e05"
+    },
+    {
+      "path": "app/demography.py",
+      "bytes": 8151,
+      "sha256": "ab3d820d48d743cb45cea023b9dbcea01ecb327d2a8ea19b4152f0b3f0f81e12"
+    },
+    {
+      "path": "app/epc_fields.py",
+      "bytes": 5208,
+      "sha256": "bc59b5399d07c32d707e68960f3b9291d06297220d0b0c41dd3de75dfb0f406d"
+    },
+    {
+      "path": "app/epc_property.py",
+      "bytes": 9717,
+      "sha256": "bc8dd26e50ea62e576b9d2cf5d29682ad9f8d48c3f8a586d77fe28d1b4c66d7d"
+    },
+    {
+      "path": "app/epc_session.py",
+      "bytes": 1585,
+      "sha256": "79384392e10494ae3d0b9b4ff39393440140872a1d6ad19764c62bff178161e7"
+    },
+    {
+      "path": "app/flood_history.py",
+      "bytes": 4939,
+      "sha256": "70e0a2d024bcd5215a49b50e278c0ebb538d6167ff1baab1c6d8f6e309421c43"
+    },
+    {
+      "path": "app/ground.py",
+      "bytes": 6940,
+      "sha256": "0e995559a1a947091067ed9f0949edd11e2012a72a550a953a84ea30b13014dc"
+    },
+    {
+      "path": "app/main.py",
+      "bytes": 10771,
+      "sha256": "3ec74554ea8c912a281283e0ebcbaf67e5c9625fc137355e3810258169f189ff"
+    },
+    {
+      "path": "app/property_details.py",
+      "bytes": 1806,
+      "sha256": "ad9eb12308ffbf2ae7f63b2cfb598a75c7c467af90c6c5386d02337c028cc5ed"
+    },
+    {
+      "path": "app/providers.py",
+      "bytes": 35052,
+      "sha256": "49b6bd983150564bfb4f69b8c93bdab8865b56c3dfec3e451089d66cd7dfb8c5"
+    },
+    {
+      "path": "app/school_context.py",
+      "bytes": 5720,
+      "sha256": "bb7487c239c82c1beae459d372dc43ae729dc209fe052f7d213b1f9cd09981d1"
+    },
+    {
+      "path": "app/schooldata.py",
+      "bytes": 5804,
+      "sha256": "559f5b15ae05ac8356a05cb77b993c09f8dea6ba59ae8e7e6a4c2dfe1ebfb118"
+    },
+    {
+      "path": "app/static/app.js",
+      "bytes": 29920,
+      "sha256": "4b5ec842ce817c16aaededbe42fa4107e102138a6a9bf78078c33de48ce353ea"
+    },
+    {
+      "path": "app/static/crime-map.js",
+      "bytes": 4717,
+      "sha256": "3ca318f3c6302d84b54c76459d65ec48fa70e7a1235dc3608741370e400a2d81"
+    },
+    {
+      "path": "app/static/demographic-trends.js",
+      "bytes": 1531,
+      "sha256": "e927202b9593cc3d827863301ae014ef123daa67803b6a7e17794232cf1935a7"
+    },
+    {
+      "path": "app/static/epc-session.js",
+      "bytes": 2670,
+      "sha256": "c6be7ed608aac7cff8c1bfe68657aecf75b7d66db22e3420b00f96f32f296efc"
+    },
+    {
+      "path": "app/static/epc-view.js",
+      "bytes": 2860,
+      "sha256": "c4a3d5d2ba14f8a15c8c7a9466e6fe455fd04452d3f9336fa400b9b8ff40f4c5"
+    },
+    {
+      "path": "app/static/favicon.svg",
+      "bytes": 268,
+      "sha256": "aa199c8cddf514a2bd13ece8de75616809125ad803057e1be80fb87e374723ef"
+    },
+    {
+      "path": "app/static/flood-map.js",
+      "bytes": 1097,
+      "sha256": "ede2e67299cec846a09db9e3a9774386111ee3d67b0b890d5d3cc7ef339da6b0"
+    },
+    {
+      "path": "app/static/index.html",
+      "bytes": 3303,
+      "sha256": "fbde9181abbcf0e84f5ee9c867089a49ec418954ab54db0b137fb4c4b29b9053"
+    },
+    {
+      "path": "app/static/journey.js",
+      "bytes": 2789,
+      "sha256": "ee292c3701ea0e63de4cd33256af85ad8bcdaa890efee625c5389d8840082547"
+    },
+    {
+      "path": "app/static/prices.js",
+      "bytes": 6962,
+      "sha256": "5dba9994479af7428222f73c55771b26614a145f23499bad555cfd4d1f163c59"
+    },
+    {
+      "path": "app/static/schools.js",
+      "bytes": 24003,
+      "sha256": "f4b9194cb8f850482b3c3931eab88f662b44968cd3582f2aec6fdaa9ba28c037"
+    },
+    {
+      "path": "app/static/style.css",
+      "bytes": 21282,
+      "sha256": "7b5696f17b4c3111d376429da5cc38df7dab0203d4ae6dffd2ba0018e6420e31"
+    },
+    {
+      "path": "app/static/updates.js",
+      "bytes": 2299,
+      "sha256": "c0b0fa8187084f2af24240fa2e45afd7127410d2a29d84e4b3b4d456fc3a6551"
+    },
+    {
+      "path": "app/static/vendor/leaflet/LICENSE",
+      "bytes": 1395,
+      "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb"
+    },
+    {
+      "path": "app/static/vendor/leaflet/images/layers-2x.png",
+      "bytes": 1259,
+      "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf"
+    },
+    {
+      "path": "app/static/vendor/leaflet/images/layers.png",
+      "bytes": 696,
+      "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6"
+    },
+    {
+      "path": "app/static/vendor/leaflet/images/marker-icon-2x.png",
+      "bytes": 2464,
+      "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528"
+    },
+    {
+      "path": "app/static/vendor/leaflet/images/marker-icon.png",
+      "bytes": 1466,
+      "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437"
+    },
+    {
+      "path": "app/static/vendor/leaflet/images/marker-shadow.png",
+      "bytes": 618,
+      "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
+    },
+    {
+      "path": "app/static/vendor/leaflet/leaflet.css",
+      "bytes": 14806,
+      "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+    },
+    {
+      "path": "app/static/vendor/leaflet/leaflet.js",
+      "bytes": 147552,
+      "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+    },
+    {
+      "path": "app/updates.py",
+      "bytes": 12493,
+      "sha256": "43eadb49477168d9493c74be982f1271bb71495702e92a4f33824ed758714a94"
+    },
+    {
+      "path": "data/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 371,
+      "sha256": "f3ae65be7a77c36ddf145b54182373e0fbe0c964e77c3f6806c4766ac9c534bb"
+    },
+    {
+      "path": "datasets/charvil-tax-2026.csv",
+      "bytes": 454,
+      "sha256": "871d32b8d85fc8c0848dc1624660d83cee01671dda394306e2f791511504b15b"
+    },
+    {
+      "path": "datasets/property-details-template.csv",
+      "bytes": 71,
+      "sha256": "ebc28b141e0357bc94ff502ef7167a9b352bc9a37c0f42a4c6bbb09d2e0d69ac"
+    },
+    {
+      "path": "docs/DEMOGRAPHICS.md",
+      "bytes": 2577,
+      "sha256": "b5e757fa12067be4077b6c43c25f2caef8d34396670f913a785d42928f214789"
+    },
+    {
+      "path": "docs/FRESHNESS.md",
+      "bytes": 6882,
+      "sha256": "1b52bbaa09a1f28256156e2d6a933a956ec456c43b843c30cf5439e253d86f6f"
+    },
+    {
+      "path": "docs/IMPORTS.md",
+      "bytes": 4604,
+      "sha256": "9ef9ed3fc60085ebf617cfd2cd184aa1b79cd83b991f2b2fb00d048d2dd62346"
+    },
+    {
+      "path": "docs/INSTALL-\u7e41\u9ad4\u4e2d\u6587.html",
+      "bytes": 11284,
+      "sha256": "9f823341dab312a64a9faafe6dd8e1f602b8cfc4d99b2206588c793f29e7e24f"
+    },
+    {
+      "path": "docs/INSTALL-\u7e41\u9ad4\u4e2d\u6587.md",
+      "bytes": 10853,
+      "sha256": "049524ed1e35017be2f9e4a71af0e1a9d12ee9f34097b122e2b85edf3bd081f4"
+    },
+    {
+      "path": "docs/OPTIONS.md",
+      "bytes": 2146,
+      "sha256": "c3564c2da8f6a2133fafbd7c47a543f6422ff3e18e3f81fceafdd645212e44f0"
+    },
+    {
+      "path": "docs/PROPERTY-DETAILS.md",
+      "bytes": 4835,
+      "sha256": "fc19eb93317e351d3c90655467c06e1e7a81d9499cd828b833142500dc87413f"
+    },
+    {
+      "path": "docs/QA-2026-09-23.md",
+      "bytes": 4543,
+      "sha256": "7701154593144814cf35d806de53f3310b3a8f4f122dc7f0c69f9253bb6d1983"
+    },
+    {
+      "path": "docs/QA-2026-10-10.md",
+      "bytes": 1160,
+      "sha256": "f6a5e97bbf031c753ab9efc678c2e1b65111d7a6fe3e2276c84e89fe60876ff8"
+    },
+    {
+      "path": "docs/SCHOOLS.md",
+      "bytes": 9065,
+      "sha256": "b20585e07093ced87a63c3ed1aaaf2fe0e45862ef77aa47108b748979de06660"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 14203,
+      "sha256": "990bb6aee9de0c94ed069e191062b6be1a4bebb09a9e895f855e66d2dabf785a"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 8428,
+      "sha256": "984ccd1d93af6b813d8078a08650e8f88c5af97b99da2b6056c3655c7dd3bb0b"
+    },
+    {
+      "path": "docs/coverage-live-check.json",
+      "bytes": 1392,
+      "sha256": "de276aa6e96907ba69b5d97df49eb978a36456aeb5d26a311ca2345c20949c0f"
+    },
+    {
+      "path": "docs/crime-radius-live.json",
+      "bytes": 119441,
+      "sha256": "d15746451a3e16c8bd58a2bda772f95206e1f22d898b6711a7dd8c22c4a61166"
+    },
+    {
+      "path": "docs/ofcom-rg109rz-no-key.json",
+      "bytes": 3574,
+      "sha256": "7bf3714b78bfe6b5ef8083f8ecf53296e2508a45614b450df502bdfdf681ba35"
+    },
+    {
+      "path": "docs/rg109rz-live-report.json",
+      "bytes": 280059,
+      "sha256": "9b9a3ed15347304e3352a4c312a9453b39e4ed9a1524804f498691930313b8aa"
+    },
+    {
+      "path": "docs/school-136449-live.json",
+      "bytes": 10929,
+      "sha256": "fca3a8478e9e0559da6471fa264f81347fc3369dfe0be7709a94a30e3e92c6cc"
+    },
+    {
+      "path": "docs/school-136891-live.json",
+      "bytes": 21885,
+      "sha256": "c63c098d3e791455dd27bee2637fb5a08a19f76846e5b5733ccfc604dfdbdabe"
+    },
+    {
+      "path": "docs/school-audit-live.json",
+      "bytes": 3990,
+      "sha256": "2fc25e4e91b4dcc1901e2a4199606cd2c0fc4a69da7ac1fc081d9a9f5ccb4454"
+    },
+    {
+      "path": "docs/school-official-crosscheck.json",
+      "bytes": 427,
+      "sha256": "5be30405525081d644c767d4640d485e3eebcf785f41aa0f8a9296461bdf560c"
+    },
+    {
+      "path": "docs/session-features-live.json",
+      "bytes": 71123,
+      "sha256": "7621200b97255fddf437e3905f6cf9a1510c36153203bcfe51e71f2defa50992"
+    },
+    {
+      "path": "install.sh",
+      "bytes": 2036,
+      "sha256": "5a6ec6d7371c7ad923adcece97a045c936dab62aec14bfc838190e0d9de6e4d7"
+    },
+    {
+      "path": "launch.sh",
+      "bytes": 797,
+      "sha256": "d714e5fe0bdf1a11a5df531c2e95bf7f186a410ca04e91fb31c50dfa9d1160d1"
+    },
+    {
+      "path": "pytest.ini",
+      "bytes": 42,
+      "sha256": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "bytes": 424,
+      "sha256": "636951d42797b74b42e15341ec630e2a8a10856dee5ca88425cede89e6d386b1"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 113,
+      "sha256": "809c95b09b6deab9f03d69b321dfa8a015abd3cf5f2baa72ca6cbd954ec78618"
+    },
+    {
+      "path": "scripts/bootstrap_data.py",
+      "bytes": 6467,
+      "sha256": "7177316d823117d7b71b7a0fc2620bf731536857fab219e144c43b786f617f3b"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "bytes": 2840,
+      "sha256": "98681095104c38b8a4d542f01624bac825ce7b22d216d3bcafa6770280fa1cc5"
+    },
+    {
+      "path": "scripts/check_locations.py",
+      "bytes": 1068,
+      "sha256": "5e6cd7ef7c24319cfa68728293ca0b05124400c8a92675d6d422e24dc841de25"
+    },
+    {
+      "path": "scripts/configure_epc.py",
+      "bytes": 276,
+      "sha256": "27ca27f9568ddde75a39a83d48388c8f42110af237d54bd1970ba26bb091ff44"
+    },
+    {
+      "path": "scripts/import_data.py",
+      "bytes": 7511,
+      "sha256": "42f0997db5c696ca12f0ff4f9543fda7eab519363f1e83dd5a145cff18b3bbf3"
+    },
+    {
+      "path": "scripts/import_greenspace.py",
+      "bytes": 2092,
+      "sha256": "5e923fb17bd5205daf2c7acea0a810adee3a84558b64d9b3b9c1bd0b86557f2f"
+    },
+    {
+      "path": "scripts/import_ofcom.py",
+      "bytes": 5198,
+      "sha256": "f83ab3df87495b4231fe23c4f0d46cf42a1e7572ccdd61b6b9cfb0c6bfb37e27"
+    },
+    {
+      "path": "scripts/import_ofsted.py",
+      "bytes": 3640,
+      "sha256": "e02c945a5c83c66ead58f8cac191f7e0993de9da7fe313591e585dccf707ec1b"
+    },
+    {
+      "path": "scripts/import_school_context.py",
+      "bytes": 5709,
+      "sha256": "5a9572df8b50733980cec6c24a55e80396257b98d64440f58f8b46d72bc7c06b"
+    },
+    {
+      "path": "scripts/smoke.py",
+      "bytes": 856,
+      "sha256": "babc9361c8ae89706a283c4dabfc9c9e9ed5f41fc3da75dad3aa62d8cae8574d"
+    },
+    {
+      "path": "start.sh",
+      "bytes": 250,
+      "sha256": "a6a26deea6daaa94d49359fb9179e8dfaf3dd351de3c24c45150995fc2da1593"
+    },
+    {
+      "path": "tests/test_ground.py",
+      "bytes": 1576,
+      "sha256": "7c851e474e6d533ea77d90c1b564afa9f050453d61d4eb1070f6e5041cf417b2"
+    },
+    {
+      "path": "tests/test_report.py",
+      "bytes": 28723,
+      "sha256": "c85d5b2195d45aa12f90be422491fbfa4378ccd684ffb0a641e1cdf9b561d059"
+    },
+    {
+      "path": "tests/test_sessions_trends.py",
+      "bytes": 10857,
+      "sha256": "606ade3b3e5b37294d05724667a83b112606942013059e2db4f229ad6ac72649"
+    },
+    {
+      "path": "data/geosure.gpkg",
+      "bytes": 29384704,
+      "sha256": "56279301978833709ea7044a3a3245ffb940eb5021dc9850347b65e07c50655d"
+    },
+    {
+      "path": "data/geosure-meta.json",
+      "bytes": 82,
+      "sha256": "42b29019a87bdcf9899c533f80b0a0f363fbdf0c1675a2cbdafdd58a6c2d8000"
+    },
+    {
+      "path": "data/gias-current.csv",
+      "bytes": 64694272,
+      "sha256": "dc92323d9c732900bf282b39639e925a2a18ec6c431ff26f3d20db1be55e19ea"
+    },
+    {
+      "path": "data/gias-current.json",
+      "bytes": 248,
+      "sha256": "366024b417d744a0701c042fd883c75162bac72e9820a930eb0fbdce56f65824"
+    },
+    {
+      "path": "data/auto-transport.csv",
+      "bytes": 101601409,
+      "sha256": "da4bbb3611bcfb4f7e4d819acec157e574405ecc9780eb4688de167679f911ee"
+    },
+    {
+      "path": "data/auto-greenspace.csv",
+      "bytes": 58480942,
+      "sha256": "429f6f37d05e3170f408d8ef6e07d674178234b6bd7df87cc4bb35698e331cf2"
+    },
+    {
+      "path": "data/auto-greenspace.gpkg",
+      "bytes": 144244736,
+      "sha256": "072ebdcf1662d43dfbba9da23cb056bbf8dd88343f27527d23d584e518f96ff0"
+    },
+    {
+      "path": "data/auto-greenspace.zip",
+      "bytes": 59489052,
+      "sha256": "f152217482fe7a0f2f950e47b83d4ccbe3d53c673ab05e4862160d1e5ac6862d"
+    },
+    {
+      "path": "data/auto-ofsted.csv",
+      "bytes": 17121385,
+      "sha256": "ae351bdfe4b57d93eb38502e3df0bce29b3ce1fd648946077b86d73fae6eae2c"
+    },
+    {
+      "path": "data/auto-school_offers.csv",
+      "bytes": 70745978,
+      "sha256": "a647394b48d75de0b1c2ecfd77892bfb5ee057175ea35f36315857894c076db2"
+    },
+    {
+      "path": "data/auto-school_workforce.xlsx",
+      "bytes": 8547771,
+      "sha256": "7a5c52a277e27cfff4fbe1ce1e6cd0e7579b6c09455fbcf1f2ac9d2d0f2878e6"
+    },
+    {
+      "path": "data/auto-broadband.zip",
+      "bytes": 33797696,
+      "sha256": "0ddc33723e345d86ba25d7528d272f6fe12aef5d21d2e3adefdcaa53711c76f3"
+    },
+    {
+      "path": "data/auto-mobile.zip",
+      "bytes": 260784,
+      "sha256": "7ba092c147bf5182d5a1790b345e778c5b84e432449bacc1eed9052d6aafe587"
+    },
+    {
+      "path": "data/charvil-tax.csv",
+      "bytes": 454,
+      "sha256": "871d32b8d85fc8c0848dc1624660d83cee01671dda394306e2f791511504b15b"
+    },
+    {
+      "path": "data/update-state.json",
+      "bytes": 9601,
+      "sha256": "b587e1f94efb46f5078f50082784aa994361f8bee7e254952e139b8cd377bc37"
+    },
+    {
+      "path": "data/report.sqlite3",
+      "bytes": 648863744,
+      "sha256": "8f9981c099b8fa667d27bec54dacfb79063c07a83c1b37a3e847157801ddc738"
+    }
+  ],
+  "notes": "No credentials or virtualenv. Public data are dated snapshots; refresh after startup."
+}

@@ -1,0 +1,21 @@
+{
+  "urn": "136449",
+  "source": "https://api.education.gov.uk/statistics/v1/data-sets/19e39901-a96c-be76-b9c2-6af54ae076d2",
+  "version": "1.0.3",
+  "indicator": "Average Attainment 8 score",
+  "official_values": [
+    {
+      "year": "2024/2025",
+      "value": "83"
+    },
+    {
+      "year": "2023/2024",
+      "value": "81.1"
+    },
+    {
+      "year": "2022/2023",
+      "value": "82.2"
+    }
+  ],
+  "matches_app": true
+}

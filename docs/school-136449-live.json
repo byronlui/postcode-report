@@ -1,0 +1,367 @@
+{
+  "phase": "Secondary",
+  "type": "Academy converter",
+  "postcode": "RG1 5LW",
+  "gender": "Boys",
+  "age_low": "11",
+  "age_high": "18",
+  "religion": "None",
+  "pupils": "1138",
+  "capacity": "1094",
+  "website": "http://www.reading-school.co.uk/",
+  "sixth_form": "Has a sixth form",
+  "admissions": "Selective",
+  "url": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/136449",
+  "urn": "136449",
+  "name": "Reading School",
+  "lat": 51.448379417589514,
+  "lon": -0.9544110172140057,
+  "performance": [
+    {
+      "stage": "ks4",
+      "status": "ok",
+      "rows": [
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "Average Progress 8 score",
+          "column": "progress8_average",
+          "value": "z",
+          "unit": ""
+        },
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "Average EBacc APS score",
+          "column": "ebacc_aps_average",
+          "value": "8.25",
+          "unit": ""
+        },
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "Average Attainment 8 score",
+          "column": "attainment8_average",
+          "value": "83",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "Average Progress 8 score",
+          "column": "progress8_average",
+          "value": "0.89",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "Average EBacc APS score",
+          "column": "ebacc_aps_average",
+          "value": "8",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "Average Attainment 8 score",
+          "column": "attainment8_average",
+          "value": "81.1",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "Average Progress 8 score",
+          "column": "progress8_average",
+          "value": "0.97",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "Average EBacc APS score",
+          "column": "ebacc_aps_average",
+          "value": "8.11",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "Average Attainment 8 score",
+          "column": "attainment8_average",
+          "value": "82.2",
+          "unit": ""
+        }
+      ],
+      "dataset_id": "19e39901-a96c-be76-b9c2-6af54ae076d2",
+      "version": "1.0.3",
+      "url": "https://api.education.gov.uk/statistics/v1/data-sets/19e39901-a96c-be76-b9c2-6af54ae076d2",
+      "provenance": {
+        "fetched_at": "2026-09-20T11:09:25.415436+00:00",
+        "cache": "live"
+      },
+      "metadata_provenance": {
+        "fetched_at": "2026-09-20T11:09:24.997687+00:00",
+        "cache": "live"
+      },
+      "summary_provenance": {
+        "fetched_at": "2026-09-20T11:09:24.913428+00:00",
+        "cache": "live"
+      },
+      "notes": [
+        "All-pupil / total cohort only; A-level cohort for KS5.",
+        "Suppression and non-applicability codes remain as published (for example c, z, x).",
+        "Compare like-for-like years and phases. Progress 8 is not available for every year; no value is imputed."
+      ]
+    },
+    {
+      "stage": "ks5",
+      "status": "ok",
+      "rows": [
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "Number of students in APS measure",
+          "column": "aps_per_entry_student_count",
+          "value": "194",
+          "unit": ""
+        },
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "APS per entry (grade)",
+          "column": "aps_per_entry_grade",
+          "value": "A",
+          "unit": ""
+        },
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "APS per entry",
+          "column": "aps_per_entry",
+          "value": "48.96",
+          "unit": ""
+        },
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "APS per 'Best 3' entries",
+          "column": "best_three_alevels_aps",
+          "value": "48.45",
+          "unit": ""
+        },
+        {
+          "year": "2024/2025",
+          "subject": "",
+          "indicator": "% achieving ≥ AAB for a minimum of 2 facilitating subjects",
+          "column": "aab_percent",
+          "value": "62.9",
+          "unit": "%"
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "Number of students in APS measure",
+          "column": "aps_per_entry_student_count",
+          "value": "187",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "APS per entry (grade)",
+          "column": "aps_per_entry_grade",
+          "value": "A",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "APS per entry",
+          "column": "aps_per_entry",
+          "value": "49.14",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "APS per 'Best 3' entries",
+          "column": "best_three_alevels_aps",
+          "value": "z",
+          "unit": ""
+        },
+        {
+          "year": "2023/2024",
+          "subject": "",
+          "indicator": "% achieving ≥ AAB for a minimum of 2 facilitating subjects",
+          "column": "aab_percent",
+          "value": "z",
+          "unit": "%"
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "Number of students in APS measure",
+          "column": "aps_per_entry_student_count",
+          "value": "171",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "APS per entry (grade)",
+          "column": "aps_per_entry_grade",
+          "value": "A",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "APS per entry",
+          "column": "aps_per_entry",
+          "value": "49.61",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "APS per 'Best 3' entries",
+          "column": "best_three_alevels_aps",
+          "value": "z",
+          "unit": ""
+        },
+        {
+          "year": "2022/2023",
+          "subject": "",
+          "indicator": "% achieving ≥ AAB for a minimum of 2 facilitating subjects",
+          "column": "aab_percent",
+          "value": "z",
+          "unit": "%"
+        },
+        {
+          "year": "2021/2022",
+          "subject": "",
+          "indicator": "Number of students in APS measure",
+          "column": "aps_per_entry_student_count",
+          "value": "182",
+          "unit": ""
+        },
+        {
+          "year": "2021/2022",
+          "subject": "",
+          "indicator": "APS per entry (grade)",
+          "column": "aps_per_entry_grade",
+          "value": "A+",
+          "unit": ""
+        },
+        {
+          "year": "2021/2022",
+          "subject": "",
+          "indicator": "APS per entry",
+          "column": "aps_per_entry",
+          "value": "51.94",
+          "unit": ""
+        },
+        {
+          "year": "2021/2022",
+          "subject": "",
+          "indicator": "APS per 'Best 3' entries",
+          "column": "best_three_alevels_aps",
+          "value": "z",
+          "unit": ""
+        },
+        {
+          "year": "2021/2022",
+          "subject": "",
+          "indicator": "% achieving ≥ AAB for a minimum of 2 facilitating subjects",
+          "column": "aab_percent",
+          "value": "z",
+          "unit": "%"
+        }
+      ],
+      "dataset_id": "019c2960-81e3-70c2-8d65-72c3718ae4fd",
+      "version": "1.0.3",
+      "url": "https://api.education.gov.uk/statistics/v1/data-sets/019c2960-81e3-70c2-8d65-72c3718ae4fd",
+      "provenance": {
+        "fetched_at": "2026-09-20T11:09:25.537521+00:00",
+        "cache": "live"
+      },
+      "metadata_provenance": {
+        "fetched_at": "2026-09-20T11:09:25.091926+00:00",
+        "cache": "live"
+      },
+      "summary_provenance": {
+        "fetched_at": "2026-09-20T11:09:24.979708+00:00",
+        "cache": "live"
+      },
+      "notes": [
+        "All-pupil / total cohort only; A-level cohort for KS5.",
+        "Suppression and non-applicability codes remain as published (for example c, z, x).",
+        "Compare like-for-like years and phases. Progress 8 is not available for every year; no value is imputed."
+      ]
+    }
+  ],
+  "ofsted": {
+    "urn": "136449",
+    "reports": [
+      {
+        "framework": "Earlier EIF",
+        "date": "21/11/2023",
+        "inspection_urn": "136449",
+        "grades": [
+          {
+            "category": "Latest OEIF overall effectiveness",
+            "value": "Outstanding",
+            "date": "21/11/2023"
+          },
+          {
+            "category": "Latest OEIF quality of education",
+            "value": "Outstanding",
+            "date": "21/11/2023"
+          },
+          {
+            "category": "Latest OEIF behaviour and attitudes",
+            "value": "Outstanding",
+            "date": "21/11/2023"
+          },
+          {
+            "category": "Latest OEIF personal development",
+            "value": "Outstanding",
+            "date": "21/11/2023"
+          },
+          {
+            "category": "Latest OEIF effectiveness of leadership and management",
+            "value": "Outstanding",
+            "date": "21/11/2023"
+          }
+        ]
+      }
+    ],
+    "report_url": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/136449"
+  },
+  "sources": {
+    "gias": {
+      "kind": "schools",
+      "source": "https://www.get-information-schools.service.gov.uk/Downloads",
+      "vintage": "2026-09-19",
+      "imported": "2026-09-20T11:07:54.777560+00:00",
+      "count": 26535,
+      "license": "OGL v3.0"
+    },
+    "ofsted": {
+      "kind": "ofsted",
+      "source": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+      "vintage": "31 August 2026",
+      "imported": "2026-09-20T11:07:55.361955+00:00",
+      "count": 21957,
+      "license": "Ofsted / Crown copyright · OGL v3.0"
+    }
+  },
+  "links": {
+    "gias": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/136449",
+    "ofsted": "https://reports.ofsted.gov.uk/provider/23/136449",
+    "performance": "https://www.compare-school-performance.service.gov.uk/school/136449",
+    "admissions": "https://www.reading-school.co.uk/admissions"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "SW1A 1AA": {
+    "country": "England",
+    "postcode": "SW1A 1AA"
+  },
+  "CF10 1EP": {
+    "country": "Wales",
+    "postcode": "CF10 1EP"
+  },
+  "EH1 1YZ": {
+    "country": "Scotland",
+    "postcode": "EH1 1YZ",
+    "crime": "coverage_gap"
+  },
+  "BT1 5GS": {
+    "country": "Northern Ireland",
+    "postcode": "BT1 5GS",
+    "prices": "coverage_gap"
+  },
+  "journey": {
+    "status": "partial",
+    "summary": "TfL 暫時未能提供此路線；保留直線距離及官方 planner。",
+    "rows": [],
+    "metrics": [
+      {
+        "label": "直線距離",
+        "value": 55.5,
+        "unit": "km"
+      }
+    ],
+    "notes": [
+      "直線距離不是行車或步行路程。TfL 只回傳其服務範圍內可規劃的旅程，非全英通勤引擎。"
+    ],
+    "links": [
+      {
+        "label": "National Rail planner",
+        "url": "https://www.nationalrail.co.uk/"
+      },
+      {
+        "label": "TfL planner",
+        "url": "https://tfl.gov.uk/plan-a-journey/"
+      }
+    ],
+    "sources": [
+      {
+        "id": "tfl",
+        "name": "Transport for London",
+        "url": "https://api.tfl.gov.uk/",
+        "coverage": "TfL journey planner service area",
+        "key_requirement": "Optional TFL_APP_KEY / service quotas",
+        "license": "TfL transport data terms",
+        "fallback": "Official TfL and National Rail journey planners"
+      }
+    ]
+  }
+}

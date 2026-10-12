@@ -1,0 +1,11 @@
+'use strict';
+window.addEventListener('DOMContentLoaded',()=>{
+ const box=document.createElement('dialog');box.id='epc-session-dialog';box.innerHTML=`<form id="epc-token-form"><h2>EPC 本次使用授權</h2><p>輸入官方 bearer token，可讀取樓面面積、物業類型、建築年代及能源證書。亦可稍後設定。</p><p class="note">只暫存在伺服器記憶體，最長一小時。伺服器重新啟動即失效；不儲存到瀏覽器、設定檔或資料庫。離開前可按「清除授權」立即移除。</p><label for="epc-token-input">EPC bearer token</label><input id="epc-token-input" type="password" autocomplete="off" spellcheck="false" maxlength="20000" required><p id="epc-token-status" role="status"></p><button type="submit">本次使用</button> <button type="button" id="epc-token-skip">稍後</button> <button type="button" id="epc-token-clear">清除授權</button><p><a href="https://get-energy-performance-data.communities.gov.uk/guidance/energy-certificate-data-apis" target="_blank" rel="noopener noreferrer">官方取得 token 說明 ↗</a></p></form>`;document.body.append(box);
+ const open=document.createElement('button');open.id='epc-session-open';open.textContent='EPC 授權';document.querySelector('.header-actions').append(open);
+ open.onclick=()=>box.showModal();document.querySelector('#epc-token-skip').onclick=()=>{document.querySelector('#epc-token-input').value='';box.close()};
+ const refresh=()=>{if(typeof loc!=='undefined'&&loc){for(const n of ['epc','prices']){revisions[n]=(revisions[n]||0)+1;delete parts[n];delete pending[n];loadPart(n)}}};
+ document.querySelector('#epc-token-form').onsubmit=async e=>{e.preventDefault();const input=document.querySelector('#epc-token-input'),status=document.querySelector('#epc-token-status');let token=input.value.trim();input.value='';status.textContent='正在啟用本次授權…';try{const r=await fetch('/api/epc/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({token})});token='';if(!r.ok)throw Error();status.textContent='已啟用本次工作階段；讀取資料時會核對官方授權。';open.textContent='EPC 授權（本次）';box.close();refresh()}catch{token='';status.textContent='未能啟用；請重新輸入。'}};
+ document.querySelector('#epc-token-clear').onclick=async()=>{await fetch('/api/epc/session',{method:'DELETE'});document.querySelector('#epc-token-input').value='';document.querySelector('#epc-token-status').textContent='本次授權已清除。';open.textContent='EPC 授權';refresh()};
+ // Prompt at every page start. The token is never read back into the browser.
+ box.showModal();
+});

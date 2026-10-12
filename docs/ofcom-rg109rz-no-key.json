@@ -1,0 +1,103 @@
+{
+  "status": "ok",
+  "summary": "Ofcom 公開網絡資料 · 寬頻按 postcode；手機按地方政府範圍",
+  "rows": [
+    {
+      "category": "≥30 Mbit/s",
+      "coverage_pct": 100.0,
+      "scope": "RG10 9RZ · 全部物業"
+    },
+    {
+      "category": "≥100 Mbit/s",
+      "coverage_pct": 100.0,
+      "scope": "RG10 9RZ · 全部物業"
+    },
+    {
+      "category": "≥300 Mbit/s",
+      "coverage_pct": 100.0,
+      "scope": "RG10 9RZ · 全部物業"
+    },
+    {
+      "category": "Gigabit-capable",
+      "coverage_pct": 100.0,
+      "scope": "RG10 9RZ · 全部物業"
+    },
+    {
+      "category": "未達 10 Mbit/s 下載 / 1 Mbit/s 上載（fixed / FWA）",
+      "coverage_pct": 0.0,
+      "scope": "RG10 9RZ · 全部物業"
+    }
+  ],
+  "metrics": [],
+  "notes": [
+    "覆蓋比例為整個 postcode 的住宅及商業物業統計，不是個別地址可購買速度，也不是速度測試。",
+    "公開 postcode 檔案沒有 full-fibre 比例；gigabit-capable 不等於全光纖。",
+    "手機數字屬 Wokingham 全區物業比例，不能判定此 postcode、屋內或某一網絡商的訊號。至少一間 = 100% 減零網絡商覆蓋比例；空白不當作零。"
+  ],
+  "links": [
+    {
+      "label": "Ofcom 官方覆蓋查詢（逐地址／網絡商）",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/ofcom-checker"
+    },
+    {
+      "label": "下載資料及方法",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-update-spring-2026"
+    }
+  ],
+  "sources": [
+    {
+      "id": "broadband",
+      "name": "Ofcom Connected Nations",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-update-spring-2026",
+      "coverage": "UK postcode broadband; local-authority mobile snapshot",
+      "key_requirement": "Public downloads: no key. Optional live APIs require subscriptions.",
+      "license": "Public January 2026 downloads: OGL v3.0; live API terms separate",
+      "fallback": "scripts/import_ofcom.py --download; official per-address coverage checker"
+    }
+  ],
+  "imported": {
+    "kind": "broadband",
+    "source": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-update-spring-2026",
+    "vintage": "January 2026 · postcode r2 (July correction)",
+    "imported": "2026-09-20T07:36:28.685694+00:00",
+    "count": 1741096,
+    "license": "Ofcom · Open Government Licence v3.0"
+  },
+  "mobile_status": "area_snapshot",
+  "mobile_rows": [
+    {
+      "category": "4G · 室內",
+      "scope": "Wokingham · 全區物業",
+      "at_least_one_pct": null,
+      "all_four_pct": 97.21
+    },
+    {
+      "category": "4G · 室外",
+      "scope": "Wokingham · 全區物業",
+      "at_least_one_pct": null,
+      "all_four_pct": 99.99
+    },
+    {
+      "category": "5G · 室外 / High confidence",
+      "scope": "Wokingham · 全區物業",
+      "at_least_one_pct": 100.0,
+      "all_four_pct": 80.72
+    },
+    {
+      "category": "5G · 室外 / Very high confidence",
+      "scope": "Wokingham · 全區物業",
+      "at_least_one_pct": 99.94,
+      "all_four_pct": 38.46
+    }
+  ],
+  "mobile_meta": {
+    "imported": {
+      "kind": "mobile",
+      "source": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-update-spring-2026",
+      "vintage": "January 2026",
+      "imported": "2026-09-20T07:36:28.803686+00:00",
+      "count": 362,
+      "license": "Ofcom · Open Government Licence v3.0"
+    }
+  }
+}

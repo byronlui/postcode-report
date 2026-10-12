@@ -1,0 +1,191 @@
+[
+  {
+    "urn": "136449",
+    "name": "Reading School",
+    "performance": [
+      {
+        "stage": "ks4",
+        "status": "ok",
+        "rows": 9,
+        "sample": [
+          {
+            "year": "2024/2025",
+            "subject": "",
+            "indicator": "Average Progress 8 score",
+            "column": "progress8_average",
+            "value": "z",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "stage": "ks5",
+        "status": "ok",
+        "rows": 20,
+        "sample": [
+          {
+            "year": "2024/2025",
+            "subject": "",
+            "indicator": "Number of students in APS measure",
+            "column": "aps_per_entry_student_count",
+            "value": "194",
+            "unit": ""
+          }
+        ]
+      }
+    ],
+    "contexts": {
+      "pupils": {
+        "status": "ok",
+        "rows": 13,
+        "scopes": 0
+      },
+      "benchmarks": {
+        "status": "not_applicable",
+        "rows": 0,
+        "scopes": 0
+      },
+      "admissions": {
+        "status": "ok",
+        "rows": 13,
+        "scopes": 0
+      },
+      "destinations": {
+        "status": "ok",
+        "rows": 30,
+        "scopes": 0
+      },
+      "workforce": {
+        "status": "ok",
+        "rows": 54,
+        "scopes": 0
+      }
+    }
+  },
+  {
+    "urn": "136891",
+    "name": "The Piggott School",
+    "performance": [
+      {
+        "stage": "ks2",
+        "status": "ok",
+        "rows": 42,
+        "sample": [
+          {
+            "year": "2024/2025",
+            "subject": "Writing",
+            "indicator": "Percentage of pupils meeting the higher standard",
+            "column": "higher_standard_pupil_percent",
+            "value": "14",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "stage": "ks4",
+        "status": "ok",
+        "rows": 9,
+        "sample": [
+          {
+            "year": "2024/2025",
+            "subject": "",
+            "indicator": "Average Progress 8 score",
+            "column": "progress8_average",
+            "value": "z",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "stage": "ks5",
+        "status": "ok",
+        "rows": 20,
+        "sample": [
+          {
+            "year": "2024/2025",
+            "subject": "",
+            "indicator": "Number of students in APS measure",
+            "column": "aps_per_entry_student_count",
+            "value": "223",
+            "unit": ""
+          }
+        ]
+      }
+    ],
+    "contexts": {
+      "pupils": {
+        "status": "ok",
+        "rows": 13,
+        "scopes": 0
+      },
+      "benchmarks": {
+        "status": "ok",
+        "rows": 0,
+        "scopes": 2
+      },
+      "admissions": {
+        "status": "ok",
+        "rows": 26,
+        "scopes": 0
+      },
+      "destinations": {
+        "status": "ok",
+        "rows": 30,
+        "scopes": 0
+      },
+      "workforce": {
+        "status": "ok",
+        "rows": 54,
+        "scopes": 0
+      }
+    }
+  },
+  {
+    "urn": "147379",
+    "name": "Sonning Church of England Primary School",
+    "performance": [
+      {
+        "stage": "ks2",
+        "status": "ok",
+        "rows": 42,
+        "sample": [
+          {
+            "year": "2024/2025",
+            "subject": "Writing",
+            "indicator": "Percentage of pupils meeting the higher standard",
+            "column": "higher_standard_pupil_percent",
+            "value": "33",
+            "unit": "%"
+          }
+        ]
+      }
+    ],
+    "contexts": {
+      "pupils": {
+        "status": "ok",
+        "rows": 13,
+        "scopes": 0
+      },
+      "benchmarks": {
+        "status": "ok",
+        "rows": 0,
+        "scopes": 2
+      },
+      "admissions": {
+        "status": "ok",
+        "rows": 7,
+        "scopes": 0
+      },
+      "destinations": {
+        "status": "not_available",
+        "rows": 0,
+        "scopes": 0
+      },
+      "workforce": {
+        "status": "ok",
+        "rows": 54,
+        "scopes": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,188 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>免費仔 free rider 安裝及使用說明</title><style>body{max-width:950px;margin:40px auto;padding:24px;font:17px/1.8 system-ui;color:#18302b}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}@media print{body{margin:0;font-size:11pt}}</style><body><pre># 免費仔 free rider 個人電腦安裝及使用說明
+
+版本：2026-09-26 · Python FastAPI 版本
+
+## 1. 下載包怎樣選
+
+- `Open-Neighbourhood-source.zip`：完整 Python、HTML、CSS、JavaScript 原始碼、測試、設定範本、資料匯入工具及說明文件。首次使用需要下載官方資料。
+- `Open-Neighbourhood-with-data.zip`：包含上述所有程式，再加上這次已下載的官方原始資料、已匯入的 SQLite 資料庫及版本紀錄。搬機時建議使用這個。
+- 兩個 ZIP 是替代方案，只需解壓其中一個。都會建立 `postcode-report` 資料夾。
+- 不包含舊 PHP 版本、電腦專用的 `.venv`、密碼／私人 `.env`、暫存檔、研究中間檔及失效下載連結。Python 套件需在新電腦重新安裝。
+- 完整包的資料是打包時快照，不等於永久最新；啟動後仍需連線檢查。地圖底圖及即時 API 亦需要互聯網。
+
+## 2. 系統要求
+
+需要 Python 3.11 或以上、互聯網及可寫入的資料夾。本版本在 macOS、Python 3.14 實測。預留至少 5 GB 磁碟空間供解壓、下載和資料庫使用。
+
+macOS／Linux 可直接執行。Windows 請使用 WSL 2 + Ubuntu；目前更新模組使用 `fcntl` 檔案鎖，不能直接在原生 Windows Python 執行。Windows／Linux 步驟尚未在本次環境實測。
+
+Python 官方下載：https://www.python.org/downloads/
+WSL 官方安裝說明：https://learn.microsoft.com/windows/wsl/install
+
+## 3. macOS 安裝
+
+1. 安裝 Python，解壓 ZIP 至自己的文件資料夾。
+2. 開啟「終端機」。輸入 `cd `（後面有空格），將解壓後的 `postcode-report` 資料夾拖入終端機，再按 Enter。
+3. 逐行執行：
+
+```sh
+python3 --version
+python3 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+.venv/bin/python -m pip install -r requirements.txt
+cp .env.example .env
+sh start.sh
+```
+
+`cp .env.example .env` 只在第一次安裝執行，以免覆蓋自己已填寫的設定。
+
+終端機顯示 Uvicorn running 後，在瀏覽器開啟：
+http://127.0.0.1:8765
+
+保持終端機開啟。停止時按 Control+C。日後再次啟動，只需回到該資料夾執行 `sh start.sh`。
+
+## 4. Linux 安裝
+
+Ubuntu／Debian 先安裝 Python 與虛擬環境支援：
+
+```sh
+sudo apt update
+sudo apt install python3 python3-venv python3-pip unzip
+```
+
+確認 `python3 --version` 至少為 3.11，然後依照 macOS 第 3 節的建立虛擬環境及啟動指令。其他 Linux 發行版使用自身套件管理器。
+
+## 5. Windows：WSL 安裝
+
+1. 以管理員身分開啟 PowerShell，執行：
+
+```powershell
+wsl --install -d Ubuntu
+```
+
+2. 按系統提示重新啟動，開啟 Ubuntu，設定 Linux 使用者名稱及密碼。
+3. 在 Ubuntu 執行 Linux 第 4 節的安裝指令。
+4. 將 ZIP 放在 Windows Downloads。Ubuntu 可從 `/mnt/c/Users/你的Windows名稱/Downloads/` 讀取。建議解壓到 Linux 個人目錄，而非直接在 Windows 掛載磁碟运行：
+
+```sh
+mkdir -p ~/apps
+cd ~/apps
+unzip &#x27;/mnt/c/Users/你的Windows名稱/Downloads/Open-Neighbourhood-with-data.zip&#x27;
+cd postcode-report
+python3 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+.venv/bin/python -m pip install -r requirements.txt
+cp .env.example .env
+sh start.sh
+```
+
+請把路徑內的名稱改成自己的實際使用者名稱。然後在 Windows 瀏覽器開啟 http://localhost:8765 。
+
+## 6. 第一次下載及更新資料
+
+完整資料包已附本地索引。原始碼包首次啟動後，在瀏覽器輸入 postcode，頁面會啟動背景版本檢查；下載可花幾分鐘，視網速及來源服務而定。展開頂部「來源檢查」查看每項進度，保持程式運行直到完成。
+
+亦可在啟動伺服器前手動建立三個主要索引：
+
+```sh
+.venv/bin/python scripts/bootstrap_data.py
+```
+
+只更新學校：
+
+```sh
+.venv/bin/python scripts/bootstrap_data.py --only schools
+```
+
+自動更新已接駁 GIAS、NaPTAN、OS 綠地、Ofsted、DfE 收生／師資及 Ofcom 公開檔案。每次開啟頁面或搜尋會檢查來源版本；沒有變更時保留本地資料。下載失敗會保留最後成功資料並標示未能確認。不要同時手動匯入及啟動另一個更新程式。
+
+地方 Council Tax 等手動匯入資料沒有完整的全國自動更新。EPC 需要自己的授權 token；部分學校財務、Parent View、catchment 等提供官方資料入口，未全部匯入。詳見 `docs/FRESHNESS.md`、`docs/SOURCES.md`、`docs/SCHOOLS.md`。
+
+「最新」是來源已發布的最新版本，並非所有統計都描述今日。人口及年齡會查詢最新年度估算，目前返回 2024；種族維持 Census 2021。兩者分開標示。水浸頁是歷史水浸範圍紀錄，沒有近年紀錄不代表沒有風險。
+
+## 7. 設定 API 及資料路徑
+
+用文字編輯器開啟 `.env`。沒有 API key 亦可使用主要功能。
+
+| 設定 | 用途 |
+|---|---|
+| DATA_DIR=data | 資料及 SQLite 存放位置，預設不需更改 |
+| REQUEST_TIMEOUT=20 | 上游 API 等候秒數 |
+| EPC | 不填入 .env。開啟網站後，在「EPC 本次使用授權」輸入官方 bearer token |
+| OFCOM_API_KEY | 可選的即時寬頻 API；公開快照不需要 key |
+| OFCOM_MOBILE_URL / OFCOM_MOBILE_KEY | 可選的授權手機覆蓋 API，按 `.env.example` 的網域及 `{postcode}` 格式 |
+| TFL_APP_KEY | 可選 TfL London journey planner key |
+| ENABLE_OSM=false | 改 true 可加入非政府的 OpenStreetMap 社群配套資料 |
+
+其他環境設定修改後停止並重新啟動程式；EPC 在網頁輸入後立即生效，不儲存到 `.env`。不要分享含其他服務密鑰的 `.env`。官方註冊及授權入口見 app 的資料來源面板及 `docs/SOURCES.md`。
+
+## 8. 使用及驗收
+
+- 搜尋 `RG10 9RZ`，左方可切換學校、人口、罪案、交通、環境等分類。
+- 學校地圖可右鍵選擇起點，再選學校查看直線距離；距離不是收生保證。
+- 人口應顯示 Wokingham 002A 的年度估算及獨立的種族分類。
+- 展開來源檢查，GIAS 應顯示已更新或官方內容未變。不同日期數字可能改變。
+- 罪案與配套可調整範圍；罪案公開位置經匿名化，並非精確門牌。
+- API 互動說明：http://127.0.0.1:8765/docs
+
+程式測試：
+
+```sh
+.venv/bin/python -m pytest -q
+```
+
+打包版本在 macOS 通過 47 項測試；第三方來源日後改版可能仍需調整接駁器。
+
+## 9. 常見問題
+
+**無法開啟頁面**：確認终端機仍在運行，而且使用 `http`，不是 `https`。
+
+**Address already in use**：8765 已被另一個程式使用。停止舊實例，或執行 `PORT=8766 sh start.sh`，再開啟 http://127.0.0.1:8766 。
+
+**ModuleNotFoundError**：確認在 `postcode-report` 資料夾，並使用 `.venv/bin/python -m pip install -r requirements.txt`。
+
+**Windows 找不到 fcntl**：改在 WSL Ubuntu 中建立虛擬環境及運行，不能沿用 Windows 的虛擬環境。
+
+**GIAS／Ofsted／其他來源下載失敗**：查看來源狀態及終端機訊息；檢查網絡後重新檢查。請保留舊資料庫，勿以空檔替換。若官方欄位改變，需更新 importer。
+
+**EPC 空白或需要授權**：公開學校及人口資料不代表 EPC 亦可匿名讀取；需要自己的官方 token。
+
+**安裝套件失敗**：更新 pip，確認 Python 版本受套件支援。`requirements.txt` 是安裝入口；`requirements.lock.txt` 記錄開發環境版本，其他平台不必強制完全一致。
+
+## 10. 備份、更新及專案結構
+
+停止程式後，複製整個 `postcode-report` 資料夾即可備份；最重要是 `data/` 與自己的 `.env`。搬機後刪除／忽略舊 `.venv`，在新機重新建立。
+
+更換程式版本前先備份，保留原本 `.env` 及 `data/`，再更新程式並重新安裝 requirements。請勿把舊 data 覆寫到另一個正在運行的實例。
+
+- `app/`：FastAPI 伺服器、資料接駁器、SQLite cache 與更新邏輯。
+- `app/static/`：HTML、CSS、JavaScript 前端。
+- `scripts/`：官方資料下載與匯入工具。
+- `tests/`：自動測試。
+- `docs/`：資料來源、功能、測試及安裝說明。
+- `datasets/`：可匯入格式與範例。
+- `data/`：下載檔、版本資訊及 `report.sqlite3`。
+
+預設只供本機使用，沒有登入系統。這份說明不包含公開網站部署；如需互聯網公開存取，須另外配置 HTTPS、身份驗證及伺服器部署。不要直接把開發伺服器改成對外公開。
+
+
+## 14. 新功能使用方式（2026-09-23）
+
+1. EPC：啟動網站會彈出授權框，輸入自己的官方 bearer token，再按「本次使用」。可先選「稍後」。授權只保留在伺服器記憶體，一小時後失效；離開前可按頁頂「EPC 授權」→「清除授權」。重啟伺服器會清空。不要把 token 寫入 source code、.env 或安裝指令。
+2. 能源表現：查看逐份證書的面積、類型、能源級別、主樓建築年代。資料不足顯示「未提供」；建築年代通常是區間，不是落成日。成交頁使用完整地址配對 EPC；可居住房間數不等於睡房數。
+3. 治安：在「罪案月份」選擇官方已發布年月，再按「套用年月」。地圖及總數會按該月更新；半徑及矩形範圍維持原選擇。未發布月份不能選擇。
+4. 人口結構：年度人口表显示最新六個已發布年度及逐年增減；種族顯示 2011／2021 普查比較，並非最近逐年估算。範圍是 LSOA，不是單一 postcode。
+5. 交通與通勤：輸入目的地 postcode，按查詢。行車路線圖及時間来自 OSRM / OpenStreetMap，不含即時交通；按 Google Maps 連結另查班次、出發時間及交通情況。
+6. 學校：成績指標會自動換行；大型收生、師資及比較表可在表格內橫向捲動。學年選單只提供官方已有成績的年份。
+
+EPC 功能已核對官方公開 schema 並通過模擬授權測試；真實帳戶授權是否有效，會在你自行於網頁輸入 token 後向官方 API 核對。程式及下載包不包含任何使用者 token。
+
+
+## 15. 成交與 EPC 更新（2026-09-26）
+
+成交列表新增 EPC 可居住房間、睡房及配對狀態。使用 Land Registry 提供的街道、地區和城市作地址配對，保留單位號碼；每間物業優先讀取最新 EPC。每次查詢最多讀取 40 份證書詳情，未讀取的資料會明確標示。
+
+可居住房間包括客廳等，並非睡房數。沒有獨立可靠睡房或浴室資料時顯示「未提供」。樓面面積使用最新配對 EPC，可能與歷史成交當時不同。
+
+如面積未顯示，先按頁頂「EPC 授權（本次）」輸入官方 token，再重新查詢郵編。重啟伺服器後必須重新授權。留意配對狀態及官方 API 錯誤提示；不應以附近物業資料填補。
+</pre></body></html>
