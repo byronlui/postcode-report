@@ -3,7 +3,11 @@ Initial assessment / Preliminary inspection using free and open data
 
 # 免費仔 free rider：自動安裝及啟動
 
+如需使用，請自行申請EPC的API Key，需要使用者自行使用GOV.UK ONE賬號申請。
+https://get-energy-performance-data.communities.gov.uk
+
 更新：2026-10-11。Python 版本；原始碼包括 Python、HTML、CSS、JavaScript、資料匯入工具及測試。
+
 
 ## 1. 選擇下載包
 
@@ -64,7 +68,7 @@ Windows 請使用 **WSL2 Ubuntu**，不支援直接在 Windows 原生 Python 執
 
 
 
-##################################################################################################################
+##############################################################################
 
 # 免費仔 free rider — UK postcode property / area report
 
